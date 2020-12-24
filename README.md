@@ -1,6 +1,23 @@
 # Android-PlateKeyboard
 
 ## How to use
+
+```groovy
+root build.gradle:
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+project build.gradle:
+dependencies {
+    implementation 'com.github.am3n:PlateKeyboard:Tag'
+}
+
+```
+
 ```xml
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -47,8 +64,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        keyboard.registerEditText(CustomKeyboardView.KeyboardType.NUMBER, numberField)
-        keyboard.registerEditText(CustomKeyboardView.KeyboardType.ALPHABET, qwertyField)
+        keyboard.registerEditText(PlateKeyboardView.KeyboardType.NUMBER, numberField)
+        keyboard.registerEditText(PlateKeyboardView.KeyboardType.ALPHABET, qwertyField)
 
     }
 

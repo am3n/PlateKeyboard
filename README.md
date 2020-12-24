@@ -85,5 +85,3 @@ class MainActivity : AppCompatActivity() {
 * [ResizableRelativeLayout](https://github.com/DonBrody/Android-ResizableRelativeLayout)
 * [ExpandableView](https://github.com/DonBrody/Android-ExpandableView)
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details

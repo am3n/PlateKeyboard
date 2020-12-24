@@ -1,2 +1,3 @@
 include ':platekeyboard'
 include ':app'
+rootProject.name = "PlateKeyboardSample"

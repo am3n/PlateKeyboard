@@ -3,7 +3,7 @@
 ## How to use
 
 ```groovy
-root build.gradle:
+> root build.gradle:
 allprojects {
     repositories {
         ...
@@ -11,9 +11,9 @@ allprojects {
     }
 }
 
-project build.gradle:
+> project build.gradle:
 dependencies {
-    implementation 'com.github.am3n:PlateKeyboard:Tag'
+    implementation 'com.github.am3n:PlateKeyboard:0.0.7'
 }
 
 ```

@@ -13,6 +13,7 @@ allprojects {
 
 > project build.gradle:
 dependencies {
+    ...
     implementation 'com.github.am3n:PlateKeyboard:0.0.7'
 }
 
